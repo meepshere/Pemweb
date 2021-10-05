@@ -4,11 +4,13 @@ body{
 	background: linear-gradient(to left, #df9b1e, #291701d5);
     text-align: center;
 }
+
 nav{    
     display: flex;
     align-items: center;
     padding: 17px;
     border-radius: 37px;
+	background-color: #dbae7756;
 }
 
 .nama-nim{
@@ -23,6 +25,7 @@ nav{
     text-align:center;
     width:73%;
 }
+
 form {
 	align-items: center;
 	display: flex;
@@ -35,16 +38,11 @@ input{
     width: 37%;
 }
 
-nav{
-	background-color: #dbae7756;
-}
-
 .kelamin{
 	padding: 6px;
 	margin: 12px;
     width: 38%;
 }
-
 
 table{
     margin: auto;
@@ -62,7 +60,6 @@ table{
 .pendaftar-tabel td {
     padding: 8px 20px;
 }
-
 
 a:link{
     position: relative;
@@ -93,6 +90,7 @@ textarea{
     width: 73%;
     height: 573px;
 }
+
 .kotak-Pendaftar2 {
 	background-color: #dbae7756;
     margin: auto;
