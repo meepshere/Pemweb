@@ -1,0 +1,106 @@
+body{
+	font-family: 'Source Code Pro', monospace;
+    color: #291701d5  ;
+	background: linear-gradient(to left, #df9b1e, #291701d5);
+    text-align: center;
+}
+nav{    
+    display: flex;
+    align-items: center;
+    padding: 17px;
+    border-radius: 37px;
+}
+
+.nama-nim{
+    color: #f7ebddd5  ;
+    font: lighter;
+}
+
+.nav-content {
+    color: #ebe5ded5  ;
+    font-size: larger;
+    font-weight: bold;
+    text-align:center;
+    width:73%;
+}
+form {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+}
+
+input{
+	padding: 6px;
+	margin: 12px;
+    width: 37%;
+}
+
+nav{
+	background-color: #dbae7756;
+}
+
+.kelamin{
+	padding: 6px;
+	margin: 12px;
+    width: 38%;
+}
+
+
+table{
+    margin: auto;
+}
+.pendaftar-tabel {
+    color: #291701d5  ;
+    margin-top: 50px;
+    font-size: 16px;
+}
+.pendaftar-tabel th{
+    font-weight: bold;
+    padding: 22px;
+}
+  
+.pendaftar-tabel td {
+    padding: 8px 20px;
+}
+
+
+a:link{
+    position: relative;
+    top: 40px;
+    padding: 10px 25px;
+    color: #291701d5;
+	background-color: #dbae7756;
+    border-radius: 73px;
+}
+
+a:visited{
+    color: #291701d5;
+}
+
+textarea{
+	padding: 6px;
+	margin: 12px;
+    height: 73px;
+    width: 37%;
+}
+
+.kotak-Pendaftar {
+	background-color: #dbae7756;
+    margin: auto;
+    margin-top: 73px;
+    padding: 37px;
+    border-radius: 73px;
+    width: 73%;
+    height: 573px;
+}
+.kotak-Pendaftar2 {
+	background-color: #dbae7756;
+    margin: auto;
+    margin-top: 73px;
+    padding: 37px;
+    border-radius: 73px;
+    width: 73%;
+    height: 500px;
+}
+
+

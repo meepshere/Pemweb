@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <link rel="stylesheet" type="text/css" href="styling.css">
+</head>
+<body>
+    <div class="kotak-Pendaftar">
+        <form method="GET" action="contentPage.html" id="formVaksin">
+            <h1>Vaccine Registration Form</h1>    
+                
+                <input id="nama" type="text" placeholder="Nama lengkap" name="nama" required>
+
+                <select required class="kelamin">
+                    <option value="" disabled selected>Jenis kelamin</option>
+                    <option value="male">Laki-laki</option>
+                    <option value="female">Perempuan</option>
+                </select>
+
+                <input type="text" placeholder="Tanggal lahir" id="tanggalLahir" name="tanggalLahir" required
+                onfocus="(this.type='date')">
+
+                <input id="NIK" type="text" placeholder="NIK" name="NIK" required>
+
+                <input type="number" name="phone" id="phone" placeholder="No. telp" required/>
+
+                <input type="email" name="email" id="email" placeholder="Email" required/>
+                <textarea name="penyakit" placeholder="Jelaskan riwayat penyakit atau alergi..." required></textarea>
+                
+                <button type="submit">Register</button>
+        </form>
+        
+        
+    </div>
+</body>
+</html>
